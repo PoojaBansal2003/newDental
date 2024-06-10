@@ -1,0 +1,232 @@
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(7, 6, 6, 0.9);
+    z-index: 100;
+    color: white; /* Set text color to white */
+}
+
+.logo img {
+    height: 90px;
+    margin-left: 45px;
+}
+
+.navbar-links ul {
+    list-style-type: none;
+    margin-left: 590px;
+    gap: 30px;
+    display: flex;
+}
+
+.navbar-links ul li {
+    margin-right: 10px;
+}
+
+.navbar-links ul li:last-child {
+    margin-right: 0;
+}
+
+.navbar-links ul li a {
+    color: rgb(247, 242, 242); /* Set anchor text color to white */
+    text-decoration: none; /* Remove underline */
+}
+
+.user-login {
+    display: flex; /* Make user-login a flex container */
+    align-items: center; /* Align items vertically */
+    margin-right: 150px; /* Add margin for spacing */
+}
+
+.user-login a {
+    color: rgb(197, 77, 77); /* Set color to white */
+    text-decoration: none; /* Remove underline */
+    margin-left: 30px; /* Add margin between icon and text */
+}
+
+.get-started button {
+    padding: 15px;
+    margin-left: -250px;
+    border: 1px solid white;
+    border-radius: 6px;
+    background-color: rgba(16, 15, 15, 0.9);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.get-started button:hover {
+    background-color: #FF1F00;
+}
+
+.sub-text {
+    font-size: 29px;
+    color: white;
+    margin-top: -40px;
+    margin-left: -925px;
+    text-align: center;
+}
+
+.inline2 {
+    vertical-align: 40px;
+    margin-left: -275px;
+}
+
+.inline {
+    vertical-align: 1px;
+    margin-left: -20px;
+}
+
+.heading {
+    font-size: 76px; /* Adjust font size as needed */
+    color: white;
+    margin-top: 190px;
+    margin-left: -734px;
+    /* background-color: black; */
+}
+
+.sub-heading {
+    font-size: 76px; /* Adjust font size as needed */
+    /* font-weight: bold; */
+    color: white;
+    margin-top: -75px;
+    margin-left: -714px;
+    /* background-color: black; */
+}
+
+.learn-more-btn {
+    margin-top: -15px;
+    margin-left: -1194px;
+    padding: 20px 25px 20px 25px;
+    background-color: #FF5733;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.learn-more-btn:hover {
+    background-color: #FF1F00;
+}
+
+/* .black-container {
+    background-color: black;
+    padding: 20px;
+    color: white;
+    margin-top: 20px;
+} */
+
+.parallax-container {
+    overflow: hidden;
+    text-align: center;
+    background: black;
+    padding-bottom: 100px; /* Adjust padding as needed to ensure space below the parallax image */
+    position: relative;
+    z-index: 1; /* Ensure it stays above other content */
+}
+
+.parallax-background {
+    position: relative;
+    /* Add any additional styling for your parallax background here */
+}
+
+.table-container {
+    margin-top:95px;
+    padding-left: 50px;
+    max-width: 1400px;
+    
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    height: 400px;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    border: 1px inset #fff;
+    padding: 12px;
+    width: 45px;
+    height: 150px; /* Ensure the cells have some height */
+    text-align: center; 
+    
+}
+
+th, td {
+    background-color: #060606;
+    font-weight: bold;
+
+}
+
+th {
+    border: 1px groove #fff;
+    padding: 12px;
+    height: 700px; /* Adjust the height of table cells */
+    text-align: center; /* Center-align text in table cells */
+   
+}
+tbody tr:nth-child(even) {
+    background-color: #080808;
+    
+}
+
+.black-container {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.bg-img{
+     background-image: url('../assets/box-img.jpeg');
+    background-size: cover; 
+    transition: transform 0.6s ease-out;
+    background-image: center;
+    opacity: 2;
+}
+
+.bg-img .head {
+    position: absolute;
+    top: 68%;
+    left: 310px;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 35px; /* Adjust font size for the .head class */
+    text-align: center;
+}
+
+.bg-img .sub {
+    position: absolute;
+    bottom: 25%; /* Adjust distance from the bottom */
+    left: 268px;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 35px; /* Adjust font size for the .sub class */
+    text-align: center;
+}
+.bg-img .para {
+    position: absolute;
+    bottom: 20%; /* Adjust distance from the bottom */
+    left: 299px;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 15px; /* Adjust font size for the .sub class */
+    text-align: center;
+}
+
+
+
+
+
