@@ -83,6 +83,12 @@
     vertical-align: 1px;
     margin-left: -20px;
 }
+.inline3 {
+    vertical-align:1px;
+    margin-left: -25px;
+}
+
+
 
 .heading {
     font-size: 76px; /* Adjust font size as needed */
@@ -139,11 +145,13 @@
     /* Add any additional styling for your parallax background here */
 }
 
+
+
 .table-container {
     margin-top:95px;
     padding-left: 50px;
     max-width: 1400px;
-    
+    padding-bottom: 300px;
     text-align: center;
 }
 
@@ -186,6 +194,7 @@ tbody tr:nth-child(even) {
     color: white;
     padding: 20px 0;
     text-align: center;
+   
 }
 
 .bg-img{
@@ -198,7 +207,7 @@ tbody tr:nth-child(even) {
 
 .bg-img .head {
     position: absolute;
-    top: 68%;
+    top: 58%;
     left: 310px;
     transform: translate(-50%, -50%);
     color: white;
@@ -208,7 +217,7 @@ tbody tr:nth-child(even) {
 
 .bg-img .sub {
     position: absolute;
-    bottom: 25%; /* Adjust distance from the bottom */
+    bottom: 36%; /* Adjust distance from the bottom */
     left: 268px;
     transform: translateX(-50%);
     color: white;
@@ -217,16 +226,136 @@ tbody tr:nth-child(even) {
 }
 .bg-img .para {
     position: absolute;
-    bottom: 20%; /* Adjust distance from the bottom */
-    left: 299px;
+    bottom: 31%; /* Adjust distance from the bottom */
+    left: 319px;
     font-family: Arial, Helvetica, sans-serif;
     transform: translateX(-50%);
-    color: white;
-    font-size: 15px; /* Adjust font size for the .sub class */
+    color: rgb(169, 168, 168);
+    font-size: 17px; /* Adjust font size for the .sub class */
     text-align: center;
+}
+
+.box {
+    background-color: #494747;
+    color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center align content vertically */
+    text-align: center; /* Center align content horizontally */
+}
+
+.box1 {
+    position: absolute;
+    top:1000px;
+    right: 500px;
+    height: 300px;
+    width: 210px;
+   
+}
+
+.box1Heading{
+color: rgb(121, 121, 236);
+font-size: 19px;
+margin-top: 74px;
+
+}
+.box1SubHeading{
+    color: rgb(121, 121, 236);
+    font-size: 19px;
+   display: absolute;
+   margin-top: -15px;
+   margin-left: -10px;
+}
+.box1Para {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute lines evenly */
+    height: 100%; /* Take full height of the container */
+    color: rgb(169, 168, 168);
+    margin-top: -5px;
 }
 
 
 
 
 
+.box2 {
+    position: absolute;
+    top:1150px;
+    right: 230px;
+    height: 300px;
+    width: 210px;
+}
+
+.box3 {
+    position: absolute;
+    top:1400px;
+    right: 500px;
+    height: 300px;
+    width: 210px;
+}
+
+.box4 {
+    position: absolute;
+    top:1550px;
+    right: 230px;
+    height: 300px;
+    width: 210px;
+}
+
+
+.bottom-boxes-container {
+    display: flex;
+    /* justify-content: space-around; */
+    margin-top: 50px;
+    width: 10px;
+    
+   
+}
+
+.bottom-box {
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #e97457;
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 2s ease-out, opacity 3s ease-out;
+}
+
+.bottom-box.box1 .bottom-box-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e97457;
+}
+
+.bottom-box.box2 {
+    /* Additional unique styling for each box if needed */
+}
+
+.bottom-box.box3 {
+    /* Additional unique styling for each box if needed */
+}
+
+.bottom-box.box4 {
+    /* Additional unique styling for each box if needed */
+}
+
+.bottom-box.box5 {
+    /* Specific styling for the fifth bottom box */
+    height: 150px; /* Adjust height as needed */
+    width: 195px;  /* Adjust width as needed */
+    margin-top: -170px; /* Adjust margin-top as needed */
+    margin-left: 1200px; /* Center horizontally */
+    margin-right: auto; /* Center horizontally */
+    border-bottom: 3px solid lightgray;
+}
+
+.bottom-box.slide-in {
+    transform: translateX(0);
+    opacity: 1;
+}
